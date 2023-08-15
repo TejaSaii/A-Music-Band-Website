@@ -30,8 +30,9 @@ This project served as a great learning opportunity and allowed me to practice v
 
 ## Screenshots
 
-![Home Page](/screenshots/home.png)
-![Store Page](/screenshots/store.png)
-![About Page](/screenshots/about.png)
+![Home Page](/images/screenshot1.png)
+![Store Page](/images/screenshot3.png)
+![Cart](/images/screenshot4.png)
+![About Page](/images/screenshot5.png)
 
 Feel free to explore the website and its code to get a better understanding of the concepts applied and the progress made in improving front-end development skills.
