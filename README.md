@@ -1,13 +1,37 @@
-# A-modern-website-html-css-js
-This website is based on a webpage of a music band (One-direction in this case)
-A website built completely on html, css and vanilla javascript.
-I built it to strengthen my basics on front-end development.
-It has three pages in it which can be navigated to using the top nav bar
-    - HOME
-    - STORE
-    - ABOUT  
-It also has a static footer at the end with icons to social media sites
-###The toughest part of this entire project was to create a shop area at the STORE
-page and a Cart, which allows user to add items to the cart, delete items from the
-cart, update quantity, and update the total price of the cart based on the user
-actions.
+# Music Band Website - One Direction
+
+This project is a music band website based on the popular band One Direction. It's built entirely using HTML, CSS, and vanilla JavaScript. The primary goal of this project was to strengthen foundational skills in front-end web development.
+
+## Features
+
+- Three main pages accessible from the top navigation bar:
+  - Home
+  - Store
+  - About
+
+- Static footer with social media icons for easy access to social media profiles.
+
+## Store and Cart Functionality
+
+One of the most challenging aspects of this project was the implementation of the store area and the cart on the Store page. This section allows users to perform the following actions:
+
+- Add items to the cart
+- Delete items from the cart
+- Update the quantity of items in the cart
+- Update the total price of the cart based on user actions
+
+This project served as a great learning opportunity and allowed me to practice various front-end development concepts, including responsive design, navigation implementation, interactivity, and data management.
+
+## Technologies Used
+
+- HTML
+- CSS
+- Vanilla JavaScript
+
+## Screenshots
+
+![Home Page](/screenshots/home.png)
+![Store Page](/screenshots/store.png)
+![About Page](/screenshots/about.png)
+
+Feel free to explore the website and its code to get a better understanding of the concepts applied and the progress made in improving front-end development skills.
