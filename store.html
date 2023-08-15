@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>The Generics</title>
+    <title>One Direction | SHOP</title>
     <link rel="stylesheet" href="styles.css" />
     <meta name="description" content="this is the description">
+    <script src="script.js" async></script>
 </head>
 
 <body>
@@ -23,34 +24,34 @@
         <div class="shop-items-container">
             <div class="shop-item">
                 <span class="shop-item-header">Album 1</span>
-                <img src="/images/album1.jpeg">
+                <img class="cart-item-image" src="/images/album1.jpeg">
                 <div class="shop-items-details">
                     <span class="shop-item-price">$16.99</span>
-                    <button class="btn" role="button">Add to cart</button>
+                    <button class="btn add-cart-btn" role="button">Add to cart</button>
                 </div>
             </div>
             <div class="shop-item">
                 <span class="shop-item-header">Album 2</span>
-                <img src="/images/album2.jpg">
+                <img class="cart-item-image" src="/images/album2.jpg">
                 <div class="shop-items-details">
                     <span class="shop-item-price">$23.99</span>
-                    <button class="btn" role="button">Add to cart</button>
+                    <button class="btn add-cart-btn" role="button">Add to cart</button>
                 </div>
             </div>
             <div class="shop-item">
                 <span class="shop-item-header">Album 3</span>
-                <img src="/images/album3.png">
+                <img class="cart-item-image" src="/images/album3.png">
                 <div class="shop-items-details">
                     <span class="shop-item-price">$4.99</span>
-                    <button class="btn" role="button">Add to cart</button>
+                    <button class="btn add-cart-btn" role="button">Add to cart</button>
                 </div>
             </div>
             <div class="shop-item">
                 <span class="shop-item-header">Album 4</span>
-                <img src="/images/album4.jpg">
+                <img class="cart-item-image" src="/images/album4.jpg">
                 <div class="shop-items-details">
                     <span class="shop-item-price">$12.99</span>
-                    <button class="btn" role="button">Add to cart</button>
+                    <button class="btn add-cart-btn" role="button">Add to cart</button>
                 </div>
             </div>
         </div>
@@ -62,20 +63,20 @@
                 <div>
                     <span class="shop-item-header">T-shirt one</span>
                 </div>
-                <img src="/images/tshirt1.webp" width="200px">
+                <img class="cart-item-image" src="/images/tshirt1.webp" width="200px">
                 <div class="shop-items-details">
                     <span class="shop-item-price">$49.99</span>
-                    <button class="btn" type="button">Add to cart</button>
+                    <button class="btn add-cart-btn" type="button">Add to cart</button>
                 </div>
             </div>
             <div class="shop-item">
                 <div>
                     <span class="shop-item-header">T-shirt two</span>
                 </div>
-                <img src="/images/tshirt2.webp" width="200px">
+                <img class="cart-item-image" src="/images/tshirt2.webp" width="200px">
                 <div class="shop-items-details">
                     <span class="shop-item-price">$38.99</span>
-                    <button class="btn" type="button">Add to cart</button>
+                    <button class="btn add-cart-btn" type="button">Add to cart</button>
                 </div>
             </div>
         </div>
@@ -87,34 +88,14 @@
                 <span class="cart-price cart-header cart-column">PRICE</span>
                 <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </div>
-            <div class="cart-row">
-                <div class="cart-item cart-column">
-                    <img class="cart-item-image" src="/images/tshirt2.webp" width="100px">
-                    <span class="item-title">T-shirt two</span>
-                </div>
-                <span class="cart-price cart-column">$38.99</span>
-                <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value="1" />
-                    <button class="btn btn-danger" role="button">REMOVE</button>
-                </div>
-            </div>
-            <div class="cart-row">
-                <div class="cart-item cart-column">
-                    <img src="/images/album3.png" width="100px">
-                    <span class="item-title">Album 3</span>
-                </div>
-                <span class="cart-price cart-column">$4.99</span>
-                <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value="1" />
-                    <button class="btn btn-danger" role="button">REMOVE</button>
-                </div>
+            <div class="cart-items-container">
             </div>
             <div class="total">
-                <span class="cart-price total-header">Total</span>
-                <span class="cart-price total-price">$43.98</span>
+                <span class="total-header">Total</span>
+                <span class="total-price">$0</span>
             </div>
-            <button class="btn btn-danger btn-purchase" role="button">PURCHASE</button>
-                
+            <button class="btn btn-purchase" role="button">PURCHASE</button>
+
     </section>
     <footer class="main-footer">
         <div class="main-footer-container nav">
